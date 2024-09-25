@@ -30,9 +30,9 @@ namespace TelCoColorCoder
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
 }
 
-void testNumberToPair(int pairNumber, TelCoColorCoder::MajorColor expectedMajor, TelCoColorCoder::MinorColor expectedMinor);
+void testNumberToPair(int, TelCoColorCoder::MajorColor, TelCoColorCoder::MinorColor);
 
-void testPairToNumber(TelCoColorCoder::MajorColor major, TelCoColorCoder::MinorColor minor, int expectedPairNumber);
+void testPairToNumber(TelCoColorCoder::MajorColor, TelCoColorCoder::MinorColor, int);
 
 void printColorCodingManual();
 
