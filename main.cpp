@@ -1,4 +1,4 @@
-#include "TelCoColorCoder.h"
+//#include "TelCoColorCoder.h"
 #include "testFunctions.cpp"
 
 int main() {
