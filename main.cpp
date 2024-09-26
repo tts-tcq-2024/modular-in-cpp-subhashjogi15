@@ -1,5 +1,4 @@
 #include "TelCoColorCoder.h"
-//#include "testFunctions.cpp"
 
 void testNumberToPair(int pairNumber, TelCoColorCoder::MajorColor expectedMajor, TelCoColorCoder::MinorColor expectedMinor)
 {
