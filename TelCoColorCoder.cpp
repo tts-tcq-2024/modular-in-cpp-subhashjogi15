@@ -1,5 +1,5 @@
 #include "TelCoColorCoder.h"
-
+ 
 namespace TelCoColorCoder 
 {
     const char* MajorColorNames[] = {
