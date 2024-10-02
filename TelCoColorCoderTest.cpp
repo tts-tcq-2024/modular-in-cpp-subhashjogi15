@@ -5,7 +5,7 @@ std::list<numberWithPair> expectedNumberWithPairManual = [
 {6, "Red", "Blue"}, {7, "Red", "Orange"}, {8, "Red", "Green"}, {9, "Red", "Brown"}, {10, "Red", "Slate"},
 {11, "Black", "Blue"}, {12, "Black", "Orange"}, {13, "Black", "Green"}, {14, "Black", "Brown"}, {15, "Black", "Slate"},
 {16, "Yellow", "Blue"}, {17, "Yellow", "Orange"}, {18, "Yellow", "Green"}, {19, "Yellow", "Brown"}, {20, "Yellow", "Slate"},
-{21, "Violet", "Blue"}, {22, "Violet", "Orange"}, {23, "Violet", "Green"}, {24, "Violet", "Brown"}, {25, "Violet", "Slate"},
+{21, "Violet", "Blue"}, {22, "Violet", "Orange"}, {23, "Violet", "Green"}, {24, "Violet", "Brown"}, {25, "Violet", "Slate"}
 ];
 
 void testNumberToPair(int pairNumber, TelCoColorCoder::MajorColor expectedMajor, TelCoColorCoder::MinorColor expectedMinor)
