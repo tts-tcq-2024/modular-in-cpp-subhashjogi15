@@ -24,7 +24,7 @@ void testPairToNumber(TelCoColorCoder::MajorColor major, TelCoColorCoder::MinorC
 }
 
 void testgenerateColorCodingManual() {
-    numberWithPair numberWithPairManual[25] = { 0 }:
+    numberWithPair numberWithPairManual[25] = { 0 };
     numberWithPairManual[25] = generateColorCodingManual();
     EXPECT_EQ(numberWithPairManual, expectedNumberWithPairManual);
 }
