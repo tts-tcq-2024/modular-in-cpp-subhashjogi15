@@ -1,5 +1,5 @@
 #include "TelCoColorCoder.h"
-
+ 
 std::list<numberWithPair> expectedNumberWithPairManual = {
 {1, "White", "Blue"}, {2, "White", "Orange"}, {3, "White", "Green"}, {4, "White", "Brown"}, {5, "White", "Slate"},
 {6, "Red", "Blue"}, {7, "Red", "Orange"}, {8, "Red", "Green"}, {9, "Red", "Brown"}, {10, "Red", "Slate"},
