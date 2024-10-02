@@ -34,7 +34,7 @@ struct numberWithPair {
 int number;
 std::string majorColor;
 std::string minorColor;
-}
+};
 
 void generateColorCodingManual();
 
