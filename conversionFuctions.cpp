@@ -16,7 +16,7 @@ namespace TelCoColorCoder
 	numberWithPair[] generateColorCodingManual() {
 		int pairNumber = 1;
 		int iterator = 0;
-		numberWithPair generatedManual[25];
+		numberWithPair generatedManual[25] =  {0} ;
     	for (int majorColorIterator = 0; majorColorIterator < 5; ++majorColorIterator) {
 	        for (int minorColorIterator = 0; minorColorIterator < 5; ++minorColorIterator) {
 				generatedManual[(iterator)].pairNumber = pairNumber;
