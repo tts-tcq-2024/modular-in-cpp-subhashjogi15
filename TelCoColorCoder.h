@@ -31,7 +31,7 @@ namespace TelCoColorCoder
 }
 
 struct numberWithPair {
-int number;
+int pairNumber;
 std::string majorColor;
 std::string minorColor;
 };
