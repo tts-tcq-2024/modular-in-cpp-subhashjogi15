@@ -13,7 +13,7 @@ namespace TelCoColorCoder
 		return major * numberOfMinorColors + minor + 1;
 	}
 
-	numberWithPair generateColorCodingManual() {
+	numberWithPair[] generateColorCodingManual() {
 		int pairNumber = 1;
 		int iterator = 0;
 		numberWithPair generatedManual[25];
