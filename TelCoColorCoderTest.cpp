@@ -1,6 +1,6 @@
 #include "TelCoColorCoder.h"
 
-list <numberWithPair> expectedNumberWithPairManual = [
+std::list<numberWithPair> expectedNumberWithPairManual = [
 {1, "White", "Blue"}, {2, "White", "Orange"}, {3, "White", "Green"}, {4, "White", "Brown"}, {5, "White", "Slate"},
 {6, "Red", "Blue"}, {7, "Red", "Orange"}, {8, "Red", "Green"}, {9, "Red", "Brown"}, {10, "Red", "Slate"},
 {11, "Black", "Blue"}, {12, "Black", "Orange"}, {13, "Black", "Green"}, {14, "Black", "Brown"}, {15, "Black", "Slate"},
@@ -24,7 +24,7 @@ void testPairToNumber(TelCoColorCoder::MajorColor major, TelCoColorCoder::MinorC
 }
 
 void testgenerateColorCodingManual() {
-    list <numberWithPair> numberWithPairManual;
+    std::list<numberWithPair> numberWithPairManual;
     expectedNumberWithPairManual = generateColorCodingManual();
     EXPECT_EQ(numberWithPairManual, expectedNumberWithPairManual);
 }
