@@ -30,6 +30,12 @@ namespace TelCoColorCoder
     int GetPairNumberFromColor(MajorColor major, MinorColor minor);
 }
 
-void printColorCodingManual();
+struct numberWithPair {
+int number;
+std::string majorColor;
+std::string minorColor;
+}
+
+void generateColorCodingManual();
 
 #endif 
