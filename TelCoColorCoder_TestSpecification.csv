@@ -1,0 +1,10 @@
+Test Case Number ,Test Case Name,Test Case Description,Expected Input ,Expected Output 
+1,Number To Pair,This test case takes a number as input and returns respective major and minor color as output,4,"WHITE, BROWN"
+2,Pair To Number,This test case takes Major Color and Minor color as input and returns respective color pair number as output,"BLACK, ORANGE",12
+3,Generate Color Coding Manual,This test case returns a list that consist of mapped color Number to pair,,"{
+{1, ""White"", ""Blue""}, {2, ""White"", ""Orange""}, {3, ""White"", ""Green""}, {4, ""White"", ""Brown""}, {5, ""White"", ""Slate""},
+{6, ""Red"", ""Blue""}, {7, ""Red"", ""Orange""}, {8, ""Red"", ""Green""}, {9, ""Red"", ""Brown""}, {10, ""Red"", ""Slate""},
+{11, ""Black"", ""Blue""}, {12, ""Black"", ""Orange""}, {13, ""Black"", ""Green""}, {14, ""Black"", ""Brown""}, {15, ""Black"", ""Slate""},
+{16, ""Yellow"", ""Blue""}, {17, ""Yellow"", ""Orange""}, {18, ""Yellow"", ""Green""}, {19, ""Yellow"", ""Brown""}, {20, ""Yellow"", ""Slate""},
+{21, ""Violet"", ""Blue""}, {22, ""Violet"", ""Orange""}, {23, ""Violet"", ""Green""}, {24, ""Violet"", ""Brown""}, {25, ""Violet"", ""Slate""}
+};"
